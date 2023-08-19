@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    flex-direction: row; /* Added flex direction for clarity */
+    align-items: center; /* Align items vertically */
+}
+/* Added styles for the stats-containers */
+.stats-containers {
+    display: flex;
+    align-items: center;
 }
 
 .stats-card {
